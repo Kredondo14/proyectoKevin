@@ -1,0 +1,158 @@
+﻿/*  general  */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+    body.center-screen {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+.main-container {
+    max-width: 960px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    background: #ffffff;
+    padding: 30px 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: center;
+}
+
+/*  tipografia  */
+
+h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/*  form  */
+.form-control {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+/*  Botones  */
+.btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+    min-width: 120px;
+}
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: white;
+}
+
+    .btn-danger:hover {
+        background-color: #c0392b;
+    }
+
+.btn-warning {
+    background-color: #f1c40f;
+    color: #000;
+}
+
+    .btn-warning:hover {
+        background-color: #d4ac0d;
+    }
+
+.btn-secondary {
+    background-color: #7f8c8d;
+    color: white;
+}
+
+    .btn-secondary:hover {
+        background-color: #626e70;
+    }
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+    .btn-success:hover {
+        background-color: #218838;
+    }
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+    .btn-info:hover {
+        background-color: #117a8b;
+    }
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+    .btn-light:hover {
+        background-color: #e2e6ea;
+    }
+
+.btn-dark {
+    background-color: #343a40;
+    color: white;
+}
+
+    .btn-dark:hover {
+        background-color: #1d2124;
+    }
+
+/*  Tablas  */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+    .table th, .table td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table th {
+        background-color: #f4f6f9;
+        color: #333;
+    }
+
+.text-danger {
+    color: red;
+}
